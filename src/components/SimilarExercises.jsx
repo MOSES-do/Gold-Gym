@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ExerciseCard from './ExerciseCard'
 import Pagination from '@mui/material/Pagination'
 import { Box, Stack, Typography, Divider } from '@mui/material'
-import HorizontalScrollbar from './HorizontalScrollBar'
+import HorizontalScrollbar from './HorizontalScrollbar'
 import Loader from './Loader'
 
 const SimilarExercises = ({ targetMuscleExercise, equipmentExercises }) => {
