@@ -36,7 +36,7 @@ const Detail = ({ exerciseDetail: { bodyPart, gifUrl, target, name, equipment } 
                 <Typography variant="h6" sx={{ fontSize: "16px" }}>
                     Exercises keep you strong. {name} {` `}
                     bend is one  of the best exercises to target your {target}. It will help you
-                    improve your mood and ganin energy!!!
+                    improve your mood and gain energy!!!
                 </Typography>
 
                 {extraDetail.map((item, index) => (
