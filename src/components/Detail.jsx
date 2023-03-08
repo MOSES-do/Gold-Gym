@@ -30,10 +30,10 @@ const Detail = ({ exerciseDetail: { bodyPart, gifUrl, target, name, equipment } 
 
 
             <Stack sx={{ gap: { lg: '35px', xs: '20px' } }}>
-                <Typography variant="h4">
+                <Typography variant="h4" sx={{ fontSize: "25px", textDecoration: "underline" }}>
                     {name}
                 </Typography>
-                <Typography variant="h6">
+                <Typography variant="h6" sx={{ fontSize: "16px" }}>
                     Exercises keep you strong. {name} {` `}
                     bend is one  of the best exercises to target your {target}. It will help you
                     improve your mood and ganin energy!!!
@@ -45,11 +45,12 @@ const Detail = ({ exerciseDetail: { bodyPart, gifUrl, target, name, equipment } 
                             <img src={item.icon} alt={item.name} style={{ width: '50px', height: '50px' }} />
                         </Button>
 
-                        <Typography variant="h5" textTransform="capitalize">
+                        <Typography variant="h5" sx={{ fontSize: "20px" }} textTransform="capitalize">
                             {item.name}
                         </Typography>
                     </Stack>
                 ))}
+                <hr style={{ opacity: "0.4" }} />
             </Stack>
         </Stack>
     )
